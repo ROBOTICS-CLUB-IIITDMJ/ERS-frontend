@@ -5,12 +5,12 @@ import robo from "./robo.webp";
 
 const About = () => {
     return (
-        <section id="about" class="about container-fluid">
-            <div class="title container">
-                <h2 class="aboutus">About Us</h2>
-                <div class="row">
+        <section id="about" className="about container-fluid">
+            <div className="title container">
+                <h2 className="aboutus">About Us</h2>
+                <div className="row">
                     <div class="col-lg-6 col-10 mx-auto">
-                        <figure class="about_hero__img">
+                        <figure className="about_hero__img">
                             <img className="animate-robo" src={robo} alt="robo" />
                         </figure>
                     </div>
